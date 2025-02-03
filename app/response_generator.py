@@ -20,7 +20,7 @@ class ResponseGenerator:
         
         try:
             response = self.client.generate(
-                model="llama2", 
+                model="llama3.2:latest", 
                 prompt=f"Your task is to respond to the question {transcription}" # Ensure string type
             )
             return response["response"]
