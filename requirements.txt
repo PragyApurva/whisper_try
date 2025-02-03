@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+faster-whisper
+soundfile
+numpy
+langgraph
+ollama
+python-dotenv
